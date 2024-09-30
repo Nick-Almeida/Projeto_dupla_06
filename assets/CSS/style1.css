@@ -55,7 +55,8 @@ header nav a{
 .banner_inicial{
     padding-top: 42px;
     width: 100%;
-    background-image: url('/IMG/bkg-inicial.svg');
+    height: 150vh;
+    background-image: url('/Projeto_dupla_06/IMG/bkg-inicial.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -77,3 +78,247 @@ header nav a{
     max-width: 705px;
     font-weight: 500;
 }
+
+.historia{
+    padding-top: 4.2rem;
+    padding-bottom: 14rem;
+}
+
+.historia h2{
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #FDEEC0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D271A;
+    text-transform: uppercase;
+}
+
+.historia p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 31px;
+    max-width: 560px;
+    font-weight: 300;
+}
+
+.curiosidades{
+    background-color: #5338BA;
+    padding: 8rem 0;
+}
+
+.curiosidades img{
+    width: 100%;
+}
+
+.curiosidades h2{
+    margin-top: 4rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #FDEEC0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D271A;
+    text-transform: uppercase;
+}
+
+.curiosidades p{
+    margin-top: 2px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 31px;
+    max-width: 560px;
+    font-weight: 300;
+}
+
+.box_curiosidades{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-left{
+    background-color: #281470;
+    display: flex;
+    padding: 2rem 1.5rem 1.5rem 2rem;
+    border-radius: 40px;
+    width: 500px;
+}
+
+.box-left span{
+    font-size: 8.62rem;
+    font-family: "Rubik", sans-serif;
+    color: #FDEEC0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D271A;
+    font-weight: bold;
+    margin-right: 2rem;
+    position: relative;
+    bottom: -6.3rem;
+}
+
+.box-left h3{
+    max-width: 300px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.box-left p{
+    font-size: 16px;
+    max-width: 300px;
+}
+
+
+.box-right{
+    margin-top: 1rem;
+    background-color: #281470;
+    display: flex;
+    padding: 2rem 1.5rem 1.5rem 2rem;
+    border-radius: 40px;
+    width: 500px;
+    margin-bottom: 3.5rem;
+}
+
+
+.box-right span{
+    font-size: 8.62rem;
+    font-family: "Rubik", sans-serif;
+    color: #FDEEC0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D271A;
+    font-weight: bold;
+    margin-right: 2rem;
+    position: relative;
+    bottom: -6.3rem;
+}
+
+.box-right h3{
+    max-width: 300px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.box-right p{
+    font-size: 16px;
+    max-width: 300px;
+}
+
+.curiosidades a{
+    padding: 1.3rem 2.5rem;
+    background-color: #F4BC57;
+    border: 1px solid #763324;
+    border-radius: 50px;
+    color: #3E241A;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.evolucao{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.evolucao h2{
+    margin-top: 4rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: #FDEEC0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D271A;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.evolucao p{
+    margin-top: 2px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 31px;
+    max-width: 47.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.step_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4rem 0;
+}
+
+.step{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.step img{
+    background-color: #F4BC57;
+    padding: 1rem;
+    border-radius: 100%;
+    margin-right: 30px;
+    width: 48px;
+}
+
+.step_text h3{
+    font-size: 22px;
+    max-width: 421px;
+    color: #fff;
+}
+
+.step_text p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.cta{
+    background-color: #B29FDB;
+    width: 100%;
+    padding: 62px 74px 74px 64px ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta span{
+    font-size: 40px;
+    color: #281470;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+}
+
+.cta_text p{
+    font-size: 18px;
+    line-height: 31px;
+    text-align: left;
+    color: #281470;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.cta_text{
+    max-width: 616px;
+}
+
+.cta_text a{
+    padding: 1.3rem 2.5rem;
+    background-color: #281470;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cta img{
+    position: relative;
+    bottom: -8rem;
+}
+
