@@ -56,7 +56,7 @@ header nav a{
     padding-top: 42px;
     width: 100%;
     height: 150vh;
-    background-image: url('/Projeto_dupla_06/IMG/bkg-inicial.svg');
+    background-image: url('/IMG/bkg-inicial.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -322,3 +322,64 @@ header nav a{
     bottom: -8rem;
 }
 
+footer{
+    margin-top: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(178, 159, 219, 0.2) 100%);
+    border-top: 1px solid #B29FDB;
+    border-radius: 50px 50px 0px 0px;
+    /* display: flex; */
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.botao-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+footer a{
+    padding: 1.3rem 2.5rem;
+    background-color: #F4BC57;
+    border: 1px solid #763324;
+    border-radius: 50px;
+    color: #3E241A;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+footer ul{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 31px;
+    font-weight: 300;
+    list-style: none;
+}
+
+footer li:not(:first-child) {
+    margin-left: 1.3rem;
+}
+
+.footer-p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 31px;
+    font-weight: 300;
+    border-top: 1px solid #B29FDB;
+    padding: 20px 0;
+    margin-top: 4rem;
+}
+
+.footer-p .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
