@@ -43,9 +43,92 @@ body{
     text-align: start;
 }
 
+/* Posicionamento do traço e das bolinhas pretas */
+
+.bolaCima{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    justify-self: center;
+}
+
+.traco{
+    grid-column: 4 / 5;
+    grid-row: 3 / 13;
+    justify-self: center;
+}
+
+.bolinha1{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    align-self: center;
+}
+
+.bolinha2{
+    grid-column: 5 / 6;
+    grid-row: 4 / 5;
+    align-self: center;
+}
+
+.bolinha3{
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    align-self: center;
+}
+
+.bolinha4{
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+    align-self: center;
+}
+
+.bolinha5{
+    grid-column: 3 / 4;
+    grid-row: 7 / 8;
+    align-self: center;
+}
+
+.bolinha6{
+    grid-column: 5 / 6;
+    grid-row: 8 / 9;
+    align-self: center;
+}
+
+.bolinha7{
+    grid-column: 3 / 4;
+    grid-row: 9 / 10;
+    align-self: center;
+}
+
+.bolinha8{
+    grid-column: 5 / 6;
+    grid-row: 10 / 11;
+    align-self: center;
+}
+
+.bolinha9{
+    grid-column: 3 / 4;
+    grid-row: 11 / 12;
+    align-self: center;
+}
+
+.bolinha10{
+    grid-column: 5 / 6;
+    grid-row: 12 / 13;
+    align-self: center;
+}
+
+.bolaBaixo{
+    grid-column: 4 / 5;
+    grid-row: 13 / 14;
+    justify-self: center;
+}
+
+/* Fim do posicionamento */
+
 .abacot{
     grid-column: 1 / 3;
     grid-row: 3 / 4;
+    justify-self: center;
 }
 
 .txtAbacot{
@@ -61,11 +144,13 @@ body{
 .txtRouen{
     grid-column: 1 / 4;
     grid-row: 4 / 5;
+    justify-self: end;
 }
 
 .muscovy{
     grid-column: 1 / 3;
     grid-row: 5 / 6;
+    justify-self: center;
 }
 
 .txtMuscovy{
@@ -81,11 +166,13 @@ body{
 .txtCayuga{
     grid-column: 1 / 4;
     grid-row: 6 / 7;
+    justify-self: end;
 }
 
 .bali{
     grid-column: 1 / 3;
     grid-row: 7 / 8;
+    justify-self: center;
 }
 
 .txtBali{
@@ -101,11 +188,13 @@ body{
 .txtAncona{
     grid-column: 1 / 4;
     grid-row: 8 / 9;
+    justify-self: end;
 }
 
 .pekin{
     grid-column: 1 / 3;
     grid-row: 9 / 10;
+    justify-self: center;
 }
 
 .txtPekin{
@@ -121,11 +210,13 @@ body{
 .txtSaxony{
     grid-column: 1 / 4;
     grid-row: 10 / 11;
+    justify-self: end;
 }
 
 .indianRunner{
     grid-column: 1 / 3;
     grid-row: 11 / 12;
+    justify-self: center;
 }
 
 .txtIndianRunner{
@@ -141,6 +232,7 @@ body{
 .txtBlueSwedish{
     grid-column: 1 / 4;
     grid-row: 12 / 13;
+    justify-self: end;
 }
 
 /* Formulário */
