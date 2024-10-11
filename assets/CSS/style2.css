@@ -129,110 +129,140 @@ body{
     grid-column: 1 / 3;
     grid-row: 3 / 4;
     justify-self: center;
+    align-self: center;
 }
 
 .txtAbacot{
     grid-column: 5 / 8;
     grid-row: 3 / 4;
+    justify-self: start;
+    align-self: center;
 }
 
 .rouen{
     grid-column: 6 / 8;
     grid-row: 4 / 5;
+    justify-self: center;
+    align-self: center;
 }
 
 .txtRouen{
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     justify-self: end;
+    align-self: center;
 }
 
 .muscovy{
     grid-column: 1 / 3;
     grid-row: 5 / 6;
     justify-self: center;
+    align-self: center;
 }
 
 .txtMuscovy{
     grid-column: 5 / 8;
     grid-row: 5 / 6;
+    justify-self: start;
+    align-self: center;
 }
 
 .cayuga{
     grid-column: 6 / 8;
     grid-row: 6 / 7;
+    justify-self: center;
+    align-self: center;
 }
 
 .txtCayuga{
     grid-column: 1 / 4;
     grid-row: 6 / 7;
     justify-self: end;
+    align-self: center;
 }
 
 .bali{
     grid-column: 1 / 3;
     grid-row: 7 / 8;
     justify-self: center;
+    align-self: center;
 }
 
 .txtBali{
     grid-column: 5 / 8;
     grid-row: 7 / 8;
+    justify-self: start;
+    align-self: center;
 }
 
 .ancona{
     grid-column: 6 / 8;
     grid-row: 8 / 9;
+    justify-self: center;
+    align-self: center;
 }
 
 .txtAncona{
     grid-column: 1 / 4;
     grid-row: 8 / 9;
     justify-self: end;
+    align-self: center;
 }
 
 .pekin{
     grid-column: 1 / 3;
     grid-row: 9 / 10;
     justify-self: center;
+    align-self: center;
 }
 
 .txtPekin{
     grid-column: 5 / 8;
     grid-row: 9 / 10;
+    justify-self: start;
+    align-self: center;
 }
 
 .saxony{
     grid-column: 6 / 8;
     grid-row: 10 / 11;
+    justify-self: center;
+    align-self: center;
 }
 
 .txtSaxony{
     grid-column: 1 / 4;
     grid-row: 10 / 11;
     justify-self: end;
+    align-self: center;
 }
 
 .indianRunner{
     grid-column: 1 / 3;
     grid-row: 11 / 12;
     justify-self: center;
+    align-self: center;
 }
 
 .txtIndianRunner{
     grid-column: 5 / 8;
     grid-row: 11 / 12;
+    justify-self: start;
+    align-self: center;
 }
 
 .blueSwedish{
     grid-column: 6 / 8;
     grid-row: 12 / 13;
+    justify-self: center;
+    align-self: center;
 }
 
 .txtBlueSwedish{
     grid-column: 1 / 4;
     grid-row: 12 / 13;
     justify-self: end;
+    align-self: center;
 }
 
 /* Formulário */
