@@ -2,6 +2,45 @@ body{
     background: linear-gradient(#3A1DA3 0%, #4C26D6 50%, #3A1DA3 100%)
 }
 
+header{
+    padding: 2rem 0;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a{
+    color: #05113B;
+    text-decoration: none;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+header nav ul li:not(:last-child){
+    margin-right: 3.6rem;
+}
+
+header nav a{
+    padding: 1.3rem 2.5rem;
+    background-color: #F4BC57;
+    border: 1px solid #763324;
+    border-radius: 50px;
+    color: #3E241A;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 .secRacas{
     display: grid;
 }
@@ -17,6 +56,8 @@ body{
     text-align: center;
     grid-column: 2 / 7;
     grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
 }
 
 .racas{
@@ -130,6 +171,8 @@ body{
     grid-row: 3 / 4;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtAbacot{
@@ -144,6 +187,8 @@ body{
     grid-row: 4 / 5;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtRouen{
@@ -158,6 +203,8 @@ body{
     grid-row: 5 / 6;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtMuscovy{
@@ -172,6 +219,8 @@ body{
     grid-row: 6 / 7;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtCayuga{
@@ -186,6 +235,8 @@ body{
     grid-row: 7 / 8;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtBali{
@@ -200,6 +251,8 @@ body{
     grid-row: 8 / 9;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtAncona{
@@ -214,6 +267,8 @@ body{
     grid-row: 9 / 10;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtPekin{
@@ -228,6 +283,8 @@ body{
     grid-row: 10 / 11;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtSaxony{
@@ -242,6 +299,8 @@ body{
     grid-row: 11 / 12;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtIndianRunner{
@@ -256,6 +315,8 @@ body{
     grid-row: 12 / 13;
     justify-self: center;
     align-self: center;
+    height: 15em;
+    width: 15em;
 }
 
 .txtBlueSwedish{
@@ -263,6 +324,51 @@ body{
     grid-row: 12 / 13;
     justify-self: end;
     align-self: center;
+}
+
+.cta{
+    background-color: #B29FDB;
+    width: 100%;
+    padding: 62px 74px 74px 64px ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta span{
+    font-size: 40px;
+    color: #281470;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+}
+
+.cta_text p{
+    font-size: 18px;
+    line-height: 31px;
+    text-align: left;
+    color: #281470;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.cta_text{
+    max-width: 616px;
+}
+
+.cta_text a{
+    padding: 1.3rem 2.5rem;
+    background-color: #281470;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cta img{
+    position: relative;
+    bottom: -8rem;
 }
 
 /* Formulário */
@@ -303,6 +409,14 @@ textarea{
     width: 180px;
 }
 
+.tituloGrande2{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    color: #FDEEC0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D271A;
+}
+
 .pForm{
     font-family: "Rubik", sans-serif;
     font-size: 20px;
@@ -310,4 +424,242 @@ textarea{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #6D271A;
     text-align: start;
+}
+
+.divForm{
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.tituloForm{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.labelNome{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: end;
+}
+
+.inputNome{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: start;
+}
+
+.labelIdade{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: end;
+}
+
+.inputIdade{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: start;
+}
+
+.labelQual{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: center;
+}
+
+.selectQual{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: auto;
+}
+
+.labelAtt{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: end;
+}
+
+.divSim{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: start;
+}
+
+.divNao{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: end;
+}
+
+.caso{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    align-self: center;
+    justify-self: center;
+}
+
+.labelEmail{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    align-self: center;
+    justify-self: end;
+}
+
+.inputEmail{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    align-self: center;
+    justify-self: auto;
+}
+
+.labelCelular{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    align-self: center;
+    justify-self: end;
+}
+
+.inputCelular{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+    align-self: center;
+    justify-self: auto;
+}
+
+.qual{
+    grid-column: 1 / 5;
+    grid-row: 8 / 9;
+    align-self: center;
+    justify-self: center;
+}
+
+.curio1{
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+    align-self: center;
+    justify-self: end;
+}
+
+.curio2{
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+    align-self: center;
+    justify-self: end;
+}
+
+.curio3{
+    grid-column: 3 / 4;
+    grid-row: 9 / 10;
+    align-self: center;
+    justify-self: start;
+}
+
+.curio4{
+    grid-column: 3 / 4;
+    grid-row: 11 / 12;
+    align-self: center;
+    justify-self: start;
+}
+
+.patoLupa{
+    grid-column: 2 / 3 ;
+    grid-row: 9 / 12 ;
+    align-self: center;
+    justify-self: center;
+    height: 15em;
+    width: 8em;
+}
+
+.labeltxt{
+    grid-column: 2 / 3;
+    grid-row: 12 / 13;
+    align-self: center;
+    justify-self: center;
+}
+
+.inputTxt{
+    grid-column: 2 / 3;
+    grid-row: 13 / 16;
+    align-self: center;
+    justify-self: center;
+}
+
+.enviar{
+    grid-column: 2 / 3;
+    grid-row: 16 / 17;
+    align-self: center;
+    justify-self: center;
+}
+
+footer{
+    margin-top: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(178, 159, 219, 0.2) 100%);
+    border-top: 1px solid #B29FDB;
+    border-radius: 50px 50px 0px 0px;
+    /* display: flex; */
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.botao-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+footer a{
+    padding: 1.3rem 2.5rem;
+    background-color: #F4BC57;
+    border: 1px solid #763324;
+    border-radius: 50px;
+    color: #3E241A;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+footer ul{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 31px;
+    font-weight: 300;
+    list-style: none;
+}
+
+footer li:not(:first-child) {
+    margin-left: 1.3rem;
+}
+
+.footer-p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 31px;
+    font-weight: 300;
+    border-top: 1px solid #B29FDB;
+    padding: 20px 0;
+    margin-top: 4rem;
+}
+
+.footer-p .wrapper{
+    display: flex;
+    justify-content: space-between;
 }

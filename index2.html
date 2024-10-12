@@ -11,18 +11,18 @@
 </head>
     <body>
         <header>
-        <nav class="wrapper">
-            <img src="/IMG/Logohome.svg" alt="Logomarca do website: mundo dos patinhos">
-            <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">História</a></li>
-                <li><a href="">Curiosidades</a></li>
-                <li><a href="">Evolução</a></li>
-                <li><a href="">Espécie</a></li>
-            </ul>
-            <a href="">Deixe seu Feedback</a>
-        </nav>
-    </header>
+            <nav class="wrapper">
+                <img src="/IMG/Logohome.svg" alt="Logomarca do website: mundo dos patinhos">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">História</a></li>
+                    <li><a href="">Curiosidades</a></li>
+                    <li><a href="">Evolução</a></li>
+                    <li><a href="">Espécie</a></li>
+                </ul>
+                <a href="">Deixe seu Feedback</a>
+            </nav>
+        </header>
         <section class="secRacas">
             <h2 class="tituloGrande">10 incríveis e diferentes espécies de patos pelo mundo</h2>
             <img class="bolaCima" src="./IMG/Bola.png" alt="">
@@ -157,30 +157,29 @@
             <img class="bolaBaixo" src="./IMG/Bola.png" alt="">
             <br><br>
         </section>  
-        <div>
-            <h3>
-                Ajude-nos a Deixar o Site Ainda Mais educativo
-            </h3>
-            <p>
-                Responda nosso formulário e nos ajude a trazer ainda mais conteúdos incríveis para seus pequenos se divertirem e aprenderem com nossos amigos patinhos! Sua participação é muito importante para criarmos um espaço cheio de curiosidades e aventuras.
-            </p>
-            <img src="./IMG/Pato-Form.png" alt="">
-            <a href="">Responder Formulário</a>
-        </div>
+        <article class="cta">
+            <div class="cta_text">
+                <span>Ajude-nos a Deixar o Site Ainda Mais educativo</span>
+                <p>Responda nosso formulário e nos ajude a trazer ainda mais conteúdos incríveis para seus pequenos se divertirem e aprenderem com nossos amigos patinhos! Sua participação é muito importante para criarmos um espaço cheio de curiosidades e aventuras.</p>
+                <a href="">Responder Formulário</a>
+            </div>
+            <img src="/IMG/duck-cta.svg" alt="Desenho de um Pato">
+        </article>
 
         <div>
-            <h3 class="tituloGrande">
-                Pais, Mães, Responsáveis ou Leitores.Preencham o formulário abaixo para nos ajudar a melhorar o site cada vez mais
-            </h3>
-            <form action="">
-                <label for="">*Nome</label>
-                <input type="text" placeholder="Nome" size="25" required>
+            <form class="divForm" action="">
+                <h3 class="tituloGrande2 tituloForm">
+                    Pais, Mães, Responsáveis ou Leitores.Preencham o formulário abaixo para nos ajudar a melhorar o site cada vez mais
+                </h3>
+
+                <label class="labelNome" for="">*Nome</label>
+                <input class="inputNome" type="text" placeholder="Nome" required>
                 
-                <label for="">*Idade</label>
-                <input type="number" placeholder="Idade" min="14" max="90" required> <br><br>
+                <label class="labelIdade" for="">*Idade</label>
+                <input class="inputIdade" type="number" placeholder="Idade" min="14" max="90" required> <br><br>
 
-                <label for="">*Qual pato mais gostou?</label>
-                <select name="" id="">
+                <label class="labelQual" for="">*Qual pato mais gostou?</label>
+                <select class="selectQual" name="" id="">
                     <option value=""></option>
                     <option value="">Abacot Ranger</option>
                     <option value="">Rouen</option>
@@ -194,65 +193,69 @@
                     <option value="">Blue Swedish ou Azul Sueco</option>
                 </select> <br><br>
 
-                <label for="">*Gostaria de receber atualizações sobre patos?</label>
-            <div class="radio">    
+                <label class="labelAtt" for="">*Gostaria de receber atualizações sobre patos?</label>
+            <div class="radio divSim">    
                 <input type="radio" id="sim" name="att" value="SIM" required> 
                 <label for="">Sim</label>
             </div>
-            <div class="radio">
+            <div class="radio divNao">
                 <input type="radio" id="nao" name="att" value="NAO" required>
                 <label for="">Não</label>
             </div>
                 <br>
 
-                <p class="pForm"><strong>Caso queira, preencha os campos abaixo:</strong></p>
+                <p class="pForm caso"><strong>Caso queira, preencha os campos abaixo:</strong></p>
 
-                <label for="">E-mail</label>
-                <input type="email" size="30" placeholder="E-mail"> <br><br>
+                <label class="labelEmail" for="">E-mail</label>
+                <input class="inputEmail" type="email" placeholder="E-mail"> <br><br>
 
-                <label for="">Celular</label>
-                <input type="tel" placeholder="Celular (xx) 9xxxxxxxx"> <br> <br>
+                <label class="labelCelular" for="">Celular</label>
+                <input class="inputCelular" type="tel" placeholder="Celular (xx) 9xxxxxxxx"> <br> <br>
 
-                <p class="pForm"><strong>Qual curiosidade você mais achou interessante?</strong></p>
+                <p class="pForm qual"><strong>Qual curiosidade você mais achou interessante?</strong></p>
             
-            <div class="radio">    
+            <div class="radio curio1">    
                 <input type="radio" id="CURIO" name="curio" value="01" required> 
                 <label for="">Curiosidade 1</label>
             </div>    
-            <div class="radio">
+            <div class="radio curio3">
                 <input type="radio" id="CURIO" name="curio" value="01" required> 
                 <label for="">Curiosidade 3</label> <br>
             </div>
-            <div class="radio">
+            <div class="radio curio2">
                 <input type="radio" id="CURIO" name="curio" value="01" required> 
                 <label for="">Curiosidade 2</label>
             </div>
-            <div class="radio">
+            <div class="radio curio4">
                 <input type="radio" id="CURIO" name="curio" value="01" required> 
                 <label for="">Curiosidade 4</label>   
             </div>
-                <img src="./IMG/Pato-Lupa.png" alt=""> 
+                <img class="patoLupa" src="./IMG/Pato-Lupa.png" alt=""> 
                 <br><br><br>
 
-                <label for="">Achou que faltou algo no site? Nos mande o feedack!</label> <br>
-                <textarea placeholder="Digite aqui o que acha que podemos melhorar" rows="15" cols=" 50"></textarea> <br> <br>
+                <label class="labeltxt" for="">Achou que faltou algo no site? Nos mande o feedack!</label> <br>
+                <textarea class="inputTxt" placeholder="Digite aqui o que acha que podemos melhorar" rows="15" cols=" 50"></textarea> <br> <br>
 
-                <input type="submit"> <br><br>
+                <input class="enviar" type="submit"> <br><br>
             </form>
         </div>
         <footer>
-            <a href="">Voltar ao topo</a>
-            <div>
-                <img src="/IMG/Logohome.svg" alt="">
-                <ul>
-                    <li>Nossas Redes</li>
-                    <li><img src="/IMG/ig.svg" alt="">Ícone Instagram</li>
-                    <li><img src="/IMG/wpp.svg" alt="">Ícone Whatsapp</li>
-                </ul>
+            <div class="wrapper">
+                <div class="botao-footer"><a href="#">Voltar ao topo</a></div>
+                <div class="footer-container">
+                    <img src="/IMG/Logohome.svg" alt="">
+                    <ul>
+                        <li>Nossas Redes</li>
+                        <li><img src="/IMG/ig.svg" alt="Ícone Instagram"></li>
+                        <li><img src="/IMG/wpp.svg" alt="Ícone Whatsapp"></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p>Mundo Dos Patos Copyright © 2024 - Todos os Direitos Reservados</p>
-                <p>Nicolas Almeida & Sabrina Pasti </p>
+            <div class="footer-p">
+                <div class="wrapper">
+                    <p>Mundo Dos Patos Copyright &copy; 2024 - Todos os Direitos Reservados</p>
+                    <p>Nicolas Almeida & Sabrina Pasti </p>
+                </div>
             </div>
         </footer>
     </body>
