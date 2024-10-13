@@ -428,8 +428,8 @@ textarea{
 
 .divForm{
     display: grid;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+    width: 1140px;
+    margin: 1px 14em;
 }
 
 .tituloForm{
